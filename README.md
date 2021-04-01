@@ -52,7 +52,7 @@ as a response you will get the new current value.
 
 #### Decrease the Value
 
-Use the ```PUT``` method at ```http://localhost:8080/counter/decrease``` to decrease the counter value. If you send no body the value will be decreased by 1. If you send a body with a value, the counter will be increased by the given value:
+Use the ```PUT``` method at ```http://localhost:8080/counter/decrease``` to decrease the counter value. If you send no body the value will be decreased by 1. If you send a body with a value, the counter will be decreased by the given value:
 
 ```json
 {
